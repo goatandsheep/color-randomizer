@@ -1,0 +1,30 @@
+{
+  "name": "color-randomizer",
+  "version": "0.0.1",
+  "description": "Color randomizer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goatandsheep/color-randomizer.git"
+  },
+  "keywords": [
+    "web",
+    "color"
+  ],
+  "author": "Kemal Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goatandsheep/color-randomizer/issues"
+  },
+  "homepage": "https://github.com/goatandsheep/color-randomizer#readme",
+  "devDependencies": {
+    "codecov": "^3.8.1",
+    "jest": "^26.6.3",
+    "xo": "^0.37.1"
+  }
+}
