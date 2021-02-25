@@ -1,9 +1,11 @@
 {
   "name": "rainbow-paint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Randomize the background color of an element",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "xo",
     "lint:fix": "xo --fix",
