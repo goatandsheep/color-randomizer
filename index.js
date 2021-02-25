@@ -1,6 +1,9 @@
 let rand = 0
 
-function randomizeColor(element) {
+/**
+ * @param {DOMString} [element='body']
+ */
+function randomizeColor(element='body') {
     let randNext = 0
     // rand must be 6 hex digits
     while (randNext < 1048576) {
@@ -13,7 +16,10 @@ function randomizeColor(element) {
     el.style.backgroundColor = "#" + randomColor;
 }
 
-function randomDarkColor(element) {
+/**
+ * @param {DOMString} [element='body']
+ */
+function randomDarkColor(element='body') {
     let randNext = Math.random() * 360
     let diff = Math.abs(rand - randNext)
     while (diff < 20) {
@@ -26,7 +32,10 @@ function randomDarkColor(element) {
     el.style.backgroundColor = randomColor;
 }
 
-function randomLightColor(element) {
+/**
+ * @param {DOMString} [element='body']
+ */
+function randomLightColor(element='body') {
     let randNext = Math.random() * 360
     let diff = Math.abs(rand - randNext)
     while (diff < 20) {
