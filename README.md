@@ -10,4 +10,22 @@
 
 ![color randomizer](./docs/color-gif.gif)
 
+```shell
+npm i rainbow-paint
+```
+
+
+```javascript
+
+import {
+    randomizeColor,
+    randomDarkColor,
+    randomLightColor
+} from 'rainbow-paint'
+
+const element = getElementsByTagName('body')[9]
+randomizeColor(element)
+
+```
+
 Credit to [beatcaps.io](https://www.beatcaps.io).
